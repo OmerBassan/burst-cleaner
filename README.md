@@ -124,7 +124,7 @@ python cli.py `
 
 ```json
 {
-  "folder": "C:\\\\Pictures",
+  "folder": "C:/Pictures",
   "num_images": 27,
   "num_bursts": 2,
   "bursts": [
@@ -132,12 +132,12 @@ python cli.py `
       "burst_id": 1,
       "num_images": 7,
       "image_ids": [
-        "C:\\\\...\\\\IMG_001.jpg",
-        "C:\\\\...\\\\IMG_002.jpg"
+        "C:/.../IMG_001.jpg",
+        "C:/.../IMG_002.jpg"
       ],
       "avg_similarity_strict": 0.87,
       "avg_similarity_loose": 0.90,
-      "recommended_keep": "C:\\\\...\\\\IMG_002.jpg"
+      "recommended_keep": "C:/.../IMG_002.jpg"
     }
   ]
 }
